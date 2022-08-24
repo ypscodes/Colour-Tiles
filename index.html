@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Tiles</title>
+</head>
+
+<body>
+    <div id="popup">
+        <div id="close">X</div>
+        <figure>
+            <img id="gif">
+            <figcaption id="caption"></figcaption>
+        </figure>
+    </div>
+    <div id=container>
+        <div id="demoDiv"><button id="demo">Click for Instructions - Demo</button></div>
+        <div id="newgameDiv"><button id="newgame">New Game</button></div>
+        <div id="nameDiv">
+            <label for="yourName">Enter your name: </label>
+            <input type="text" id="yourName">
+            <div id="startDiv"><button id="start">Start</button></div>
+        </div>
+        <div id="game">
+            <div id="scores">
+                <div id=countDiv><span id="moveCounter">Move Count - 0</span></div>
+                <div id=timerDiv><span id="timer">Timer - 00:00:000</span></div>
+            </div>
+            <hr>
+            <table id="tableContainer">
+                <tr>
+                    <td><table id="table3"></table></td>
+                    <td><table id="table5"></table></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
